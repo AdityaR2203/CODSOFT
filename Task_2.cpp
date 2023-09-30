@@ -1,6 +1,8 @@
 //----------------------------------------------------Calculator Program------------------------------------------------------------------
 
 
+
+
 #include<iostream>
 using namespace std;
     float a;
@@ -43,7 +45,8 @@ int main()
         calculator(a ,b, op);
         cout<<"\n\nEnter 'y' to repeat or Enter 'n' to Exit\n";
         cin>>repeat;
-    }while(repeat =='y');
+    }
+    while(repeat =='y');
     return 0;
     
 }
